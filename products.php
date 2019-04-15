@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-  <title>Raptor - Free Bootstrap 4 Template by Colorlib</title>
+  <title>Angels Technology</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -32,7 +32,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Raptor.</a>
+      <a class="navbar-brand" href="index.php">Angels Technology</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -41,7 +41,7 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
           <li class="nav-item active"><a href="products.php" class="nav-link">Productos</a></li>
-          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Get started</span></a></li>
+          <li class="nav-item cta"><a href="contact.php" class="nav-link"><span>Contacto</span></a></li>
         </ul>
       </div>
     </div>
@@ -56,8 +56,7 @@
     <div class="container-fluid">
       <div class="row no-gutters d-flex slider-text align-items-center justify-content-center" data-scrollax-parent="true">
         <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-          <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Blog</span></p>
-          <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Blog</h1>
+          <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Productos</h1>
         </div>
       </div>
     </div>
@@ -66,92 +65,26 @@
   <section class="ftco-section bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 ftco-animate">
-          <div class="blog-entry">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-              <div class="meta mb-3">
-                <div><a href="#">August 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+      <?php
+        for ($i = 1; $i <= 9; $i++) {
+          ?>
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/xiaomi.jpeg');">
+              </a>
+              <div class="text p-4 d-block">
+                <div class="meta mb-3">
+                  <div>Xioami Redmi Note 7</div>
+                </div>
+                <h3 class="heading">Q 1,600.00</h3>
               </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 ftco-animate">
-          <div class="blog-entry" data-aos-delay="100">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-            </a>
-            <div class="text p-4">
-              <div class="meta mb-3">
-                <div><a href="#">August 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 ftco-animate">
-          <div class="blog-entry" data-aos-delay="200">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-            </a>
-            <div class="text p-4">
-              <div class="meta mb-3">
-                <div><a href="#">August 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 ftco-animate">
-          <div class="blog-entry">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_4.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-              <div class="meta mb-3">
-                <div><a href="#">August 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 ftco-animate">
-          <div class="blog-entry" data-aos-delay="100">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_5.jpg');">
-            </a>
-            <div class="text p-4">
-              <div class="meta mb-3">
-                <div><a href="#">August 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 ftco-animate">
-          <div class="blog-entry" data-aos-delay="200">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_6.jpg');">
-            </a>
-            <div class="text p-4">
-              <div class="meta mb-3">
-                <div><a href="#">August 12, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-            </div>
-          </div>
-        </div>
+        <?php
+      }
+      ?>
       </div>
-      <div class="row mt-5">
+      <!-- <div class="row mt-5">
         <div class="col text-center">
           <div class="block-27">
             <ul>
@@ -165,7 +98,7 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 

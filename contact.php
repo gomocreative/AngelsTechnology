@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-  <title>Raptor - Free Bootstrap 4 Template by Colorlib</title>
+  <title>Angels Technology</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -32,7 +32,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.php">Angels Technology.</a>
+      <a class="navbar-brand" href="index.php">Angels Technology</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
@@ -56,8 +56,7 @@
     <div class="container-fluid">
       <div class="row no-gutters d-flex slider-text align-items-center justify-content-center" data-scrollax-parent="true">
         <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-          <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Contact</span></p>
-          <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Contact</h1>
+          <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Contacto</h1>
         </div>
       </div>
     </div>
@@ -65,41 +64,37 @@
 
   <section class="ftco-section contact-section ftco-degree-bg">
     <div class="container">
-      <div class="row d-flex mb-5 contact-info">
-        <div class="col-md-12 mb-4">
-          <h2 class="h4">Contact Information</h2>
+      <div class="row d-flex mb-5 contact-info text-center">
+        <div class="col-md-12 ">
+          <h2 class="h4">Información de Contacto</h2>
         </div>
-        <div class="w-100"></div>
-        <div class="col-md-3">
-          <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+        <div class="col-md-4">
+          <p><span>Dirección:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
         </div>
-        <div class="col-md-3">
-          <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+        <div class="col-md-4">
+          <p><span>Tel:</span> <a href="tel://0303-0202">+502 0303-0202</a></p>
         </div>
-        <div class="col-md-3">
-          <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-        </div>
-        <div class="col-md-3">
-          <p><span>Website</span> <a href="#">yoursite.com</a></p>
+        <div class="col-md-4">
+          <p><span>Email:</span> <a href="mailto:name@angelstec.com">name@angelstec.com</a></p>
         </div>
       </div>
       <div class="row block-9">
         <div class="col-md-6 pr-md-5">
           <form action="#">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" placeholder="Nombre">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Email">
+              <input type="text" class="form-control" placeholder="Email">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input type="text" class="form-control" placeholder="Asunto">
             </div>
             <div class="form-group">
-              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Mensaje"></textarea>
             </div>
             <div class="form-group">
-              <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              <input type="submit" value="Enviar" class="btn btn-primary py-3 px-5">
             </div>
           </form>
 
